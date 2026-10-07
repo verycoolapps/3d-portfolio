@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ADHITHYA PRANANDRA SOEMITRO — Founder • Product Builder • Technology Leader</title>
+<meta name="description" content="Interactive portfolio of Adhithya Pranandra Soemitro — founder, product builder, AI trainer and technology leader. Enter the Soemitroverse: a playable 3D world built from 50+ shipped products, games and AI tools.">
+<meta name="author" content="Adhithya Pranandra Soemitro">
+<meta name="keywords" content="Adhithya Pranandra Soemitro, Adhithya Soemitro, Andra Soemitro, VeryCoolApps, PT Agra Karya Digital, product builder, AI trainer, technology leader, Roblox developer, iOS developer, Jakarta">
+<meta name="theme-color" content="#07080c">
+<link rel="canonical" href="https://andrasoemitro3dportfolio.netlify.app/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="THE SOEMITROVERSE">
+<meta property="og:title" content="ADHITHYA PRANANDRA SOEMITRO — Founder • Product Builder • Technology Leader">
+<meta property="og:description" content="A playable 3D portfolio universe. 50+ shipped products, 17+ iOS games, 13+ Roblox experiences, 38 AI prompt tools — built by one person.">
+<meta property="og:url" content="https://andrasoemitro.netlify.app/">
+<meta property="og:image" content="https://andrasoemitro.netlify.app/og-cover.svg">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="id_ID">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ADHITHYA PRANANDRA SOEMITRO — The Soemitroverse">
+<meta name="twitter:description" content="Enter a gigantic interactive 3D world built from a real technology founder's career, products and games.">
+<meta name="twitter:image" content="https://andrasoemitro.netlify.app/og-cover.svg">
+<meta name="twitter:creator" content="@andrasoemitro">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2307080c'/%3E%3Cpath d='M16 5 26 11v10l-10 6-10-6V11z' fill='none' stroke='%23ffb066' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23ffb066'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Adhithya Pranandra Soemitro",
+  "alternateName": ["Adhithya Soemitro", "Andra Soemitro"],
+  "jobTitle": "CEO & Founder",
+  "description": "Founder, product builder, AI trainer and technology leader. CEO of PT. Agra Karya Digital (VeryCoolApps), Jakarta.",
+  "url": "https://andrasoemitro.netlify.app/",
+  "email": "mailto:apranandra@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Jakarta", "addressCountry": "ID" },
+  "worksFor": { "@type": "Organization", "name": "PT. Agra Karya Digital", "alternateName": "VeryCoolApps", "url": "https://www.vcadeveloper.com" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Charles Sturt University" },
+    { "@type": "CollegeOrUniversity", "name": "Binus International University" }
+  ],
+  "knowsAbout": ["Product Management","Product Strategy","AI Training","LLM Deployment","Game Development","Digital Transformation","Roblox Development","iOS Development"],
+  "knowsLanguage": ["id", "en"],
+  "sameAs": [
+    "https://www.linkedin.com/in/adhithya-pranandra-soemitro-324369a4",
+    "https://twitter.com/andrasoemitro",
+    "https://www.instagram.com/andrasoemitro/",
+    "https://www.facebook.com/adhithya.pranandra",
+    "https://www.vcadeveloper.com"
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ================= CINEMATIC OPENING ================= -->
+<div id="cinematic" role="dialog" aria-label="Opening sequence">
+  <div class="cine-stage">
+    <div class="cine-line" data-step="0">INITIALIZING SOEMITROVERSE<span class="dots">...</span></div>
+    <div class="cine-line" data-step="1">LOADING DIGITAL WORLD<span class="dots">...</span></div>
+    <div class="cine-line big" data-step="2">ADHITHYA PRANANDRA SOEMITRO</div>
+    <div class="cine-line roles" data-step="3">
+      <span>FOUNDER</span><span>PRODUCT BUILDER</span><span>AI TRAINER</span><span>TECHNOLOGY LEADER</span>
+    </div>
+    <div class="cine-line enter" data-step="4">
+      <button id="enterBtn" class="sv-btn primary" disabled>ENTER THE WORLD</button>
+    </div>
+  </div>
+  <div class="cine-scan"></div>
+  <div class="cine-bar"><div id="cineBar"></div></div>
+  <button class="cine-skip" id="cineSkip" type="button" aria-label="Skip intro and enter the world">SKIP INTRO <b>↵</b></button>
+</div>
+
+<!-- ================= WEBGL FALLBACK ================= -->
+<div id="fallback" hidden>
+  <header class="fb-hero">
+    <div class="fb-badge">2D EXPERIENCE · WEBGL UNAVAILABLE</div>
+    <h1>ADHITHYA PRANANDRA SOEMITRO</h1>
+    <p class="fb-sub">FOUNDER · PRODUCT BUILDER · TECHNOLOGY LEADER · AI TRAINER</p>
+    <p class="fb-tag">Interactive portfolio of Adhithya Pranandra Soemitro — CEO of PT. Agra Karya Digital (VeryCoolApps), Jakarta.</p>
+    <div class="fb-stats" id="fbStats"></div>
+    <div class="fb-cta">
+      <a class="sv-btn primary" href="#fb-work">VIEW THE WORK</a>
+      <a class="sv-btn" href="https://www.linkedin.com/in/adhithya-pranandra-soemitro-324369a4" target="_blank" rel="noopener">LINKEDIN</a>
+    </div>
+  </header>
+  <main id="fbRoot" class="fb-root"></main>
+  <footer class="fb-footer">
+    <p>© 2025 Adhithya Pranandra Soemitro · PT. Agra Karya Digital · Jakarta, Indonesia</p>
+  </footer>
+</div>
+
+<!-- ================= 3D STAGE ================= -->
+<div id="stage">
+  <canvas id="scene"></canvas>
+</div>
+
+<!-- ================= BOOT OVERLAY ================= -->
+<div id="boot">
+  <div class="boot-inner">
+    <div class="boot-logo">
+      <svg viewBox="0 0 64 64" width="54" height="54" aria-hidden="true">
+        <path d="M32 6 56 20v24L32 58 8 44V20z" fill="none" stroke="#ffb066" stroke-width="1.4" opacity=".55"/>
+        <path d="M32 16 46 24v16l-14 8-14-8V24z" fill="none" stroke="#ffb066" stroke-width="1.2" opacity=".85"/>
+        <circle cx="32" cy="32" r="4.5" fill="#ffb066"/>
+      </svg>
+    </div>
+    <h2>SOEMITROVERSE</h2>
+    <div class="boot-sub">BUILDING THE WORLD</div>
+    <div class="boot-bar"><div id="bootBar"></div></div>
+    <div id="bootMsg" class="boot-msg">initializing renderer…</div>
+    <div id="bootSkipWrap"><button id="bootSkip" class="boot-skip" type="button">SKIP INTRO · ENTER WHEN READY</button></div>
+  </div>
+</div>
+
+<!-- ================= HUD ================= -->
+<div id="hud" hidden>
+
+  <div class="hud-tl">
+    <div class="hud-name">ADHITHYA SOEMITRO</div>
+    <div class="hud-role" id="hudZone">SOEMITRO PLAZA</div>
+  </div>
+
+  <div class="hud-tr">
+    <button class="hud-chip" id="mapToggle" aria-label="Toggle map">MAP</button>
+    <button class="hud-chip" id="menuToggle" aria-label="Toggle menu">MENU</button>
+  </div>
+
+  <div class="hud-bl">
+    <div class="quest-head">QUEST <span id="questIdx">01</span>/06</div>
+    <div class="quest-text" id="questText">ENTER FOUNDER HQ</div>
+    <div class="quest-bar"><div id="questBar"></div></div>
+    <div class="quest-progress">PORTFOLIO EXPLORATION <span id="questPct">0%</span></div>
+  </div>
+
+  <div class="hud-br">
+    <button class="interact-btn" id="interactBtn" disabled>
+      <span class="key">E</span><span class="lbl" id="interactLbl">INTERACT</span>
+    </button>
+  </div>
+
+  <div class="hud-bc">
+    <div class="compass" id="compass"><div class="compass-dial" id="compassDial"></div><div class="compass-needle"></div></div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <div id="interactHint" class="interact-hint" hidden></div>
+  <div id="fps" class="fps">-- FPS</div>
+</div>
+
+<!-- ================= MINIMAP ================= -->
+<div id="mapPanel" class="drawer">
+  <div class="drawer-head"><span>WORLD MAP</span><button class="drawer-close" data-close="mapPanel">✕</button></div>
+  <div class="map-wrap">
+    <canvas id="minimap" width="320" height="320"></canvas>
+    <div class="map-legend" id="mapLegend"></div>
+  </div>
+  <div class="map-hint">Click a district name to set a waypoint.</div>
+</div>
+
+<!-- ================= MAIN MENU ================= -->
+<div id="menuPanel" class="drawer">
+  <div class="drawer-head"><span>MENU</span><button class="drawer-close" data-close="menuPanel">✕</button></div>
+  <nav class="menu-nav">
+    <button data-view="map">MAP</button>
+    <button data-view="projects">PROJECTS</button>
+    <button data-view="about">ABOUT</button>
+    <button data-view="experience">EXPERIENCE</button>
+    <button data-view="skills">SKILLS</button>
+    <button data-view="contact">CONTACT</button>
+  </nav>
+  <div class="menu-note">Press <b>ESC</b> to close · <b>Q</b> for quests · <b>T</b> to change time</div>
+</div>
+
+<!-- ================= HOLOGRAPHIC PANEL ================= -->
+<div id="holo" class="holo" hidden>
+  <div class="holo-frame">
+    <div class="holo-top">
+      <div class="holo-tag" id="holoTag">PROJECT</div>
+      <button class="holo-close" id="holoClose" aria-label="Close">✕</button>
+    </div>
+    <div class="holo-body" id="holoBody"></div>
+  </div>
+  <div class="holo-glow"></div>
+</div>
+
+<!-- ================= TIME / SETTINGS DRAWER ================= -->
+<div id="settingsPanel" class="drawer">
+  <div class="drawer-head"><span>ENVIRONMENT</span><button class="drawer-close" data-close="settingsPanel">✕</button></div>
+  <div class="set-row">
+    <label>TIME OF DAY</label>
+    <div class="set-btns">
+      <button data-time="sunset" class="on">SUNSET</button>
+      <button data-time="night">NIGHT</button>
+      <button data-time="sunrise">SUNRISE</button>
+    </div>
+  </div>
+  <div class="set-row slider-row">
+    <label>Cyclic time</label>
+    <input type="range" id="timeSlider" min="0" max="100" value="21">
+  </div>
+  <div class="set-row">
+    <label>QUALITY</label>
+    <div class="set-btns" id="qualityBtns">
+      <button data-q="ultra">ULTRA</button>
+      <button data-q="high" class="on">HIGH</button>
+      <button data-q="medium">MEDIUM</button>
+      <button data-q="low">LOW</button>
+    </div>
+  </div>
+  <div class="set-row">
+    <label>Cyclic day/night</label>
+    <div class="set-btns"><button id="cycleBtn" class="on">ON</button></div>
+  </div>
+  <div class="set-row stat-row" id="perfStats"></div>
+</div>
+
+<!-- ================= PAUSE / LOADING ================= -->
+<div id="paused" hidden><span>RENDERING PAUSED — RESUME BY CLICKING</span></div>
+
+<!-- ================= CONTROLS HINT ================= -->
+<div id="controlsPrev" class="controls-prev">
+  <div class="cp-title">CONTROLS</div>
+  <div class="cp-grid">
+    <div><b>W A S D</b> / Arrows — Move</div>
+    <div><b>MOUSE</b> — Look (click to lock)</div>
+    <div><b>SHIFT</b> — Sprint</div>
+    <div><b>SPACE</b> — Jump</div>
+    <div><b>E</b> — Interact</div>
+    <div><b>MAP</b> / <b>M</b> — World map</div>
+    <div><b>Q</b> — Quests</div>
+    <div><b>T</b> — Change time</div>
+  </div>
+  <div class="cp-close" id="cpClose">GOT IT</div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/fallback.js"></script>
+<script src="js/ui.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="js/app.js"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" ></script></body>
+</html>

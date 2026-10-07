@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">The Soemitroverse — Adhithya Pranandra Soemitro</title>
+<desc id="desc">A cinematic city world, built from a founder's products, games, and technology career.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080a0f"/><stop offset=".54" stop-color="#171b22"/><stop offset="1" stop-color="#090b10"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#565e67"/><stop offset=".48" stop-color="#c4c8c7"/><stop offset="1" stop-color="#4b5159"/></linearGradient>
+  <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c7824c"/><stop offset="1" stop-color="#ffd9ad"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#ffb066" stop-opacity=".18"/><stop offset="1" stop-color="#ffb066" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#8a95a6" stroke-opacity=".1" stroke-width="1"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="32"/></filter>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect width="1200" height="630" fill="url(#grid)"/>
+<ellipse cx="860" cy="338" rx="360" ry="290" fill="url(#halo)" filter="url(#blur)"/>
+<!-- Architectural skyline / Soemitro Tower -->
+<g fill="#191e26" stroke="#535d68" stroke-opacity=".5">
+  <path d="M580 630V300l52-28 52 28v330z"/><path d="M720 630V224l70-44 70 44v406z"/><path d="M905 630V336l48-26 48 26v294z"/><path d="M1030 630V280l46-25 46 25v350z"/>
+  <path d="M777 180V135h26V90h16V43h12v47h16v45h26v45z" fill="url(#metal)" stroke="#d5d8d7" stroke-width="2"/>
+</g>
+<path d="M0 512 1200 466v164H0z" fill="#0b0e13" stroke="#353b44" stroke-width="2"/>
+<path d="M655 630 816 508l169 122M900 630l82-98 147 98" fill="none" stroke="#7c8286" stroke-opacity=".4" stroke-width="2"/>
+<g fill="#e4e6e3" opacity=".62"><rect x="613" y="339" width="7" height="31"/><rect x="640" y="339" width="7" height="31"/><rect x="755" y="257" width="8" height="36"/><rect x="786" y="257" width="8" height="36"/><rect x="819" y="257" width="8" height="36"/><rect x="930" y="370" width="7" height="28"/><rect x="961" y="370" width="7" height="28"/></g>
+<path d="M68 80h41l17-20 17 20h42" fill="none" stroke="url(#warm)" stroke-width="2"/>
+<text x="70" y="144" fill="#ffb066" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="6">THE PLAYABLE 3D PORTFOLIO</text>
+<text x="67" y="226" fill="#f5f4ef" font-family="Arial,sans-serif" font-size="50" font-weight="800" letter-spacing="1">ADHITHYA PRANANDRA</text>
+<text x="67" y="291" fill="#f5f4ef" font-family="Arial,sans-serif" font-size="62" font-weight="800" letter-spacing="3">SOEMITRO</text>
+<path d="M70 320h445" stroke="#4c5661" stroke-width="1"/>
+<text x="70" y="363" fill="#c8d0d9" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">FOUNDER · PRODUCT BUILDER</text>
+<text x="70" y="399" fill="#c8d0d9" font-family="Arial,sans-serif" font-size="20" letter-spacing="3">TECHNOLOGY LEADER · AI TRAINER</text>
+<g font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">
+ <text x="70" y="482" fill="#ffcf9d">50+ PRODUCTS</text><circle cx="213" cy="477" r="2" fill="#9ec8ff"/><text x="234" y="482" fill="#d4d9de">GAMES</text><circle cx="305" cy="477" r="2" fill="#9ec8ff"/><text x="325" y="482" fill="#d4d9de">AI TOOLS</text><circle cx="413" cy="477" r="2" fill="#9ec8ff"/><text x="435" y="482" fill="#d4d9de">JAKARTA</text>
+</g>
+<text x="70" y="574" fill="#747f8f" font-family="monospace" font-size="13" letter-spacing="4">ENTER THE SOEMITROVERSE →</text>
+<rect x="1" y="1" width="1198" height="628" fill="none" stroke="#69717b" stroke-opacity=".32" stroke-width="2"/>
+</svg>
