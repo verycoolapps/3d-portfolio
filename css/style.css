@@ -312,7 +312,8 @@ canvas{display:block}
   color:var(--dimmer);cursor:pointer;transition:.3s}
 .cp-close:hover{color:var(--ember)}
 #paused{position:fixed;inset:0;z-index:650;display:grid;place-items:center;background:rgba(4,5,8,.5);
-  font-family:var(--font-m);font-size:.6rem;letter-spacing:.24em;color:var(--dim)}
+  font-family:var(--font-m);font-size:.6rem;letter-spacing:.24em;color:var(--dim);pointer-events:none}
+#paused[hidden]{display:none}
 
 /* ============================ MOBILE ============================ */
 .joystick{position:fixed;left:1.6rem;bottom:5.2rem;width:118px;height:118px;z-index:560;
